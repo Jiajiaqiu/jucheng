@@ -1,0 +1,457 @@
+.box{
+    width: 100%;
+    height: 100%;
+}
+/* 导航 */
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    left: 0;
+    right: 0;
+    height: 1rem;
+    width: 100%;
+    padding: 0 .4rem;
+    color: #fff;
+    z-index: 10;
+}
+.address{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1.5rem;
+    height: .7rem;
+    border-radius: .46667rem;
+    border: 1px solid hsla(0, 0%, 88%, .3);
+    background-color: rgba(0, 0, 0, .3);
+}
+.search{
+    display: flex;
+    align-items: center;
+    width: 6rem;
+    height: .74667rem;
+    border-radius: .53333rem;
+    border: 1px solid hsla(0, 0%, 88%, .2);
+    background-color: rgba(0, 0, 0, .2);
+    margin-left: .10667rem;
+}
+.strong{
+    width: .53333rem;
+    height: .53333rem;
+    margin-left: .29333rem;
+    margin-right: .13333rem;
+    background: url(https://m.juooo.com/static/img/nav_icon_search.f194288.png) no-repeat;
+    background-size: cover;
+}
+.img{
+    width: .72rem;
+    height: .66667rem;
+    margin-left: .2rem;
+}
+
+
+
+/* 轮播图 */
+.contain{
+    height: 100%;
+}
+.swiper{
+    height: 4rem;
+    background: #ccc;
+    display: flex;
+    overflow: hidden;
+}
+.swiperImg {
+    width: 100%;
+    height: 100%;
+}
+
+
+
+/* 小图标列表 */
+.advertion{
+    padding: .53333rem .4rem 0;
+}
+.classify{
+    display: flex;
+    justify-content: space-between;
+}
+.item{
+    text-align: center;
+}
+.span{
+    font-size: .3rem;
+    color: #232323;
+    margin-top: .2rem;
+}
+.page{
+    width: 1.36rem;
+    height: 1.36rem;
+}
+.banner{
+    margin-top: .8rem;
+    width: 100%;
+    height: 2rem;
+    border-radius: 1.33333rem;
+    overflow: hidden;
+    border: 1px solid #add8e6;
+    background: url(http://image.juooo.com/group1/M00/02/64/rAoKmVyurWWASnGFAAMNnYeNyoc800.png) no-repeat;
+    background-size: 100% 2rem;
+}
+.operation {
+    margin-top: .8rem;
+    background-color: #f5f5f5;
+    box-shadow: 0 0.05333rem 0.4rem 0.02667rem rgba(35, 35, 35, .08);
+}
+.operationUl{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.operationLi {
+    display: flex;
+    width: 3.2rem;
+    height: 2rem;
+    justify-content: space-between;
+    background: #fefefe;
+    align-items: center;
+    padding: 0 .2rem;
+}
+.head{
+    text-align: center;
+}
+.head>p{
+    font-size: .2rem;
+}
+.plus{  
+    background: url(http://image.juooo.com/group1/M00/03/0D/rAoKNVyuly2Abyo9AAAFqTMeVeI867.png) no-repeat;
+    background-size: cover;
+    
+}
+.plus,
+.plusTo,
+.preferentiala,
+.preferentialb,
+.preferentialc {
+    width: 1rem;
+    height: 1rem;
+}
+.plusTo{
+    background:url(http://image.juooo.com/group1/M00/02/63/rAoKmVyul4KAN4xIAAAGqNi5vq4366.png) no-repeat;
+    background-size: cover;
+}
+.num{
+    color: red;
+}
+.right{
+    display: flex;
+    margin-top: .2rem;
+    justify-content: space-between;
+}
+.left{
+    display: flex;
+    width: 2.18rem;
+    height: 2rem;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    background-color: #fefefe;
+}
+.preferentiala{
+    background: url(http://image.juooo.com/group1/M00/03/0D/rAoKNVyumIiAMpqmAAAGebZ70tk573.png) no-repeat;
+    background-size: cover;
+}
+.preferentialb {
+    background: url(http://image.juooo.com/group1/M00/02/63/rAoKmVyumJuADezsAAAFQQ7pzxI319.png) no-repeat;
+    background-size: cover;
+    position: relative;
+    top: -0.24rem;
+}
+.preferentialc {
+    background: url(http://image.juooo.com/group1/M00/03/0D/rAoKNVyumKiAfP1qAAACYTizNOw440.png) no-repeat;
+    background-size: cover;
+}
+
+
+/* 热门演出 */
+.action,.list{
+    margin-top: .53rem;
+}
+.list{
+    width:max-content;
+    display: flex;
+   
+}
+
+.actionMin,
+.actionMinB {
+   
+    padding-bottom: .93333rem;
+}
+.actionMin{
+     padding-top: .3rem;
+}
+.tour,
+.tourB {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: .4rem;
+    padding-right: .4rem;
+}
+.slid{
+    width: 2rem;
+    margin-right: .1rem;
+}
+.hot{
+    width: 2rem;
+    height: 3rem;
+    border-radius: .10667rem;
+    border: 1px solid #ebebeb;
+    overflow: hidden;
+}
+.single{
+    height: .66667rem;
+    line-height: .66667rem;
+    font-size: .3rem;
+    color: #232323;
+    margin-top: .13333rem;
+    width: 100%;
+    font-weight: 700;
+    padding-right: .4rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+
+
+/* 巡回演出 */
+.actionMinB{
+    background: #f5f5f5;
+}
+.tourB {
+    padding: .53333rem .4rem  0;
+}
+.horizontal{
+    display: flex;
+    width: max-content;
+    
+}
+.horizontalLi{
+    width: 5rem;
+    margin-right: .2rem;
+    color: #232323;
+    text-align: center;
+    margin-top: .4rem;
+}
+.horizontalImg{
+    height: 3.7rem;
+    /* width: 100%; */
+    border-radius: .10667rem;
+    border: 1px solid #ebebeb;
+    overflow: hidden;
+}
+.horizontalTxt {
+    height: .66667rem;
+    line-height: .66667rem;
+    font-size: .3rem;
+    color: #232323;
+    margin-top: .33333rem;
+    width: 100%;
+    text-align: center;
+}
+.horizontalPic {
+    width:5rem !important;
+    height: 100%;
+}
+.horizontalP{
+    font-size: .2rem;
+    height: .3rem;
+    line-height: .3rem;
+    color: #666;
+}
+/* 演唱会  音乐会  音乐剧*/
+
+li:nth-child(1)>.bgcC {
+    background: rgb(202, 167, 170);
+}
+li:nth-child(2)>.bgcC {
+    background: rgb(207, 184, 190);
+}
+li:nth-child(3)>.bgcC {
+    background: rgb(230, 39, 15);
+}
+li:nth-child(4)>.bgcC {
+    background: rgb(139, 93, 83);
+}
+li:nth-child(5)>.bgcC {
+    background-color: rgba(0, 0, 0, .2);
+}
+li:nth-child(6)>.bgcC {
+    background: rgb(91, 84, 77);
+}
+.bgcLeftImg,
+.horizontalPic {
+    width: 100%;
+    height: 100%;
+}
+.bgc,
+.bgcB,
+.bgcC {
+    padding: .37333rem 0 .37333rem .4rem;
+    margin-top: .53333rem;
+    display: flex;
+}
+.double{
+    margin: .4rem 0 .6rem 0;
+}
+.showDataB{
+    margin-bottom: .4rem ;
+}
+.bgc{
+    background: rgb(56, 46, 35);
+}
+.bgcLeft {
+    width: 2.2rem;
+    height: 3rem;
+    border-radius: .10667rem;
+    border: 1px solid #ebebeb;
+    position: relative;
+    overflow: hidden;
+    margin-right: .2rem;
+}
+.bgcRight {
+    width: 70%;
+    color: #fff;
+}
+.wrapper{
+    display: flex;
+    margin-top: .5rem;
+    margin-left: .2rem;
+    width:max-content;
+}
+.wrapperLi {
+    width: 2.4rem;
+}
+.juooo{
+    width: 2.2rem;
+    height: 3rem;
+    border-radius: .10667rem;
+    border: 1px solid #ebebeb;
+    position: relative;
+    overflow: hidden;
+}
+.juoooImg{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+
+/* 热门场馆 */
+.venueListLeft{
+    padding-left: .4rem;
+    display: flex;
+    width: max-content;
+}
+.venueList{
+    margin-top: .5rem;
+    width: 6rem;
+    height: 6rem;
+    border-radius: .10667rem;
+    border: 1px solid #ebebeb;
+    padding: .53333rem .45333rem;
+    box-sizing: border-box;
+    margin-right: .2rem;
+}
+.venueUl{
+    display: flex;
+}
+.venueLi{
+    overflow: hidden;
+}
+h3{
+    font-size: .4rem;
+}
+
+
+
+/* 为你推荐 */
+.remmond{
+    margin-top: 1.06667rem;
+    padding: 0 .4rem;
+    padding-bottom: .88rem;
+}
+.remmondtitle{
+    font-size: .4rem;
+    font-weight: 700;
+    color: #232323;
+}
+.remmondUl {
+    margin-top: .53333rem;
+}
+.remmondLi{
+    display: flex;
+    margin-bottom: .5rem;
+}
+.remmongImg{
+    width: 100%;
+    height: 100%;
+}
+.show{
+    width: 4rem;
+    height: 3.3rem;
+    border-radius: .10667rem;
+    border: 1px solid #ebebeb;
+    position: relative;
+    overflow: hidden;
+}
+.desc {
+    margin-left: .2rem; 
+    padding-top: .1rem;
+    width: 64%;
+    color: #232323;
+}
+.showData {
+    font-size: .32rem;
+    height: .64rem;
+    line-height: .64rem;
+    letter-spacing: 1px; 
+    color: #666;
+}
+.double {
+    width: 100%;
+    font-size: .35rem;
+    line-height: .4rem;
+    margin-top: .2rem;
+    word-break: break-all;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    display: -webkit-box;
+    overflow: hidden;
+}
+.venue {
+    margin-top: .4rem;
+    width: 5rem;
+    font-size: .3rem;
+    height: .4rem;
+    line-height: .4rem;
+    color: #666;
+}
+.price{
+    font-size: .29rem;
+    color: #999;
+    height: .4rem;
+    line-height: .4rem;
+    margin-top: .2rem;
+}
+.priceNum{
+    color: #ff6743;
+    font-size: .35rem;
+    margin-right: .1rem;
+}

@@ -1,0 +1,83 @@
+.center{
+    background-color: #e6e6e6;
+    padding-top: .88rem;
+}
+.main{
+    padding: 0.4rem 0 .6rem;
+    text-align: center;
+}
+.mainBox{
+    margin: 0 auto;
+    width: 6rem;
+    height: 4rem;
+    background: #fff;
+    border-radius: 0.384rem;
+}
+.remind{
+    background: #fff;
+    padding: 1.5rem 0 .6rem;
+    color: #999;
+    text-align: center;
+}
+.item{
+    display: flex;
+    justify-content: center;
+}
+.buyBtn,
+.bindBtn {  
+    border: 1px solid #DE9922;
+    display: block;
+    width: 1.8rem;
+    height: .8rem;
+    text-align: center;
+    line-height: .8rem;
+    border-radius: 0.128rem;
+}
+.buyBtn{
+    margin-right: 0.96rem;
+    color: #DE9922;
+}
+.bindBtn{
+    background: #e7a93c;
+    color: #fff;
+}
+.title{
+    align-items: center;
+    height: .8rem;
+    line-height: .8rem;
+    padding: 0 0.64rem;
+    border-bottom: 1px solid #e0e0e0;
+    color: #999;
+}
+.empty{
+    text-align: center;
+    height: 2rem;
+    line-height: 2rem;
+    text-align: center;
+    color: #666;
+}
+.footer{
+    padding: 0 1rem;
+    box-shadow: 0 -0.08533rem 0.128rem rgba(65, 64, 64, 0.1);
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0rem;
+    height: 1rem;
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+}
+.pkBtn{
+    background-color: #ccc;
+    color: #fff;
+    border: 1px solid #ccc;
+    width: 5rem;
+    line-height: .7rem; 
+    display: inline-block;
+    line-height: .7rem;
+    text-align: center;
+    margin:auto;
+    margin-top: .15rem;
+    border-radius: 0.256rem;
+}

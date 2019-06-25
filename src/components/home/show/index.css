@@ -1,0 +1,153 @@
+.ul>li{
+    width: 64px !important;
+}
+.box{
+    width: 100%;
+    height: 100%;
+}
+.nav{
+    text-align: center;
+    display: flex;
+    padding-left: .2rem;
+    padding-bottom: .2rem;
+    padding-top: .2rem;
+    background-color: #fefefe;
+    /*justify-content: space-between;*/
+    align-items: center;
+    position: fixed;
+    left: 0;
+    top: .88rem;
+    z-index: 1;
+    width: 100%;
+}
+.type{
+    width: 6rem !important;
+}
+
+.ul{
+    display: flex;
+    width: max-content;
+    margin-right: .1rem;
+    flex-direction: row;
+    white-space: nowrap;
+    z-index: 10;
+}
+.text,.txt,.right{
+    
+    font-size: .3rem;
+    color: #666;
+    padding: 0 .1rem;
+    border-bottom: .04rem solid transparent;
+    border-radius: .02667rem;
+    height: .64rem;
+    line-height: .64rem;
+    margin-right: .2rem;
+}
+.right{
+    display: flex;
+    white-space: nowrap;
+    background: #fff;
+    z-index: 22;
+}
+.active{
+    color: #ff6743;
+    border-color: #ff6743;
+}
+/* 为你推荐 */
+.remmond {
+    margin-top: 2rem;
+    padding: 0 .4rem;
+    padding-bottom: .88rem;
+}
+
+
+.remmondUl {
+    margin-top: .53333rem;
+}
+
+.remmondLi {
+    display: flex;
+    margin-bottom: .5rem;
+}
+
+.remmongImg {
+    width: 100%;
+    height: 100%;
+}
+
+.show {
+    width: 2.8rem;
+    height: 3.3rem;
+    border-radius: .10667rem;
+    border: 1px solid #ebebeb;
+    position: relative;
+    overflow: hidden;
+}
+
+.desc,
+.descTwo {
+    margin-left: .2rem;
+
+    padding-top: .1rem;
+}
+
+.descTwo {
+    width: 73%;
+}
+
+.desc {
+    width: 64%;
+    color: #232323;
+}
+
+.showData,
+.showDataB {
+    font-size: .32rem;
+    height: .64rem;
+    line-height: .64rem;
+    letter-spacing: 1px;
+}
+
+.showData {
+    color: #666;
+}
+
+.double {
+    width: 100%;
+    font-size: .35rem;
+    line-height: .4rem;
+    margin-top: .2rem;
+    word-break: break-all;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    display: -webkit-box;
+    overflow: hidden;
+}
+
+.venue,
+.venueB {
+    margin-top: .4rem;
+    width: 5rem;
+    font-size: .3rem;
+    height: .4rem;
+    line-height: .4rem;
+
+}
+
+.venue {
+    color: #666;
+}
+
+.price {
+    font-size: .29rem;
+    color: #999;
+    height: .4rem;
+    line-height: .4rem;
+    margin-top: .2rem;
+}
+
+.priceNum {
+    color: #ff6743;
+    font-size: .35rem;
+    margin-right: .1rem;
+}

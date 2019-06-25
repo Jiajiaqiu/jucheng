@@ -1,0 +1,79 @@
+.box {
+    width: 100%;
+    height: 100%;
+    padding-top: .88rem;
+    background: #f6f6f6;
+}
+
+.center {
+    width: 100%;
+    border-top: 1px solid #e7e7e7;
+    text-align: center;
+    background: #fff;
+    color: #666;
+}
+.text{
+    width: 100%;
+    height: 3rem;
+    padding: 0.4rem 0.4rem 0.4rem;
+    background: #fff;
+    margin-bottom: 0.42667rem;
+    position: relative;
+}
+.text>textarea{
+    width: 100%;
+    height: 100%;
+    border: none;
+    position: relative;
+    font-size: 0.3rem;
+    color: #b2b2b2;
+}
+.num{
+    font-size: 0.2rem;
+    color: #b2b2b2;
+    position: absolute;
+    right: 0.4rem;
+    bottom: 0.4rem;
+}
+.input,
+.city {
+    width: 100%;
+    height: 1rem;
+    line-height: 1rem;
+    background: #fff;
+    margin-bottom: 0.42667rem;
+}
+.telNum{
+    margin-left: .2rem;
+    border:none;
+    width: 100%;
+    height: 1rem;
+    line-height: 1rem;
+}
+.city{
+    display: block;
+    padding: 0.064rem 0.42667rem 0;
+    font-size: 0.3rem;
+    position: relative;
+}
+.fl{
+    position: absolute;
+    right:.2rem;
+    top: 6.1rem;
+}
+.info{
+    margin: .6rem 0.64rem 0 0.68267rem;
+    background: #fff;
+}
+.wrap{
+    display: block;
+    border: none;
+    border-radius: 0.10667rem;
+    width: 100%;
+    height: 1rem;
+    font-size: 0.3rem;
+    line-height: 1rem;
+    text-align: center;
+    color: #212121;
+    background-color: #fff;
+}

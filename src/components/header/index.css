@@ -1,0 +1,21 @@
+.header{
+    width: 100%;
+    height: .88rem;
+    background: #fff;
+    position: fixed;
+    left: 0;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #666;
+    padding-left:.2rem;
+    z-index: 9;
+}
+.inconfont{
+    font-size: .3rem;
+}
+.header>p{
+    font-size: .6rem;
+    margin-right:.2rem;
+}

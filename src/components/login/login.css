@@ -1,0 +1,158 @@
+.box{
+    background-image: url(https://m.juooo.com/public/basic/Home/app/app-juooo5/images/login/login_bg.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center center;
+    width: 100%;
+    height:11.5rem;
+    
+}
+.navbar{
+    width: 100%;
+    height: .8rem;
+    font-size: 0.3rem;
+    color: #212121;
+    background: #fdfdfd;
+}
+.navbarinner{
+    display: flex;
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding: 0 0.68267rem 0 0.64rem;
+    width: 100%;
+    height: 100%;
+}
+.left{
+    width: .6rem;
+    top: 0;
+    height: .8rem;
+    line-height: .8rem;
+    margin-right: 10px;
+    font-size: 0.59733rem;
+}
+.link{
+    width: .6rem;
+    height: .4rem;
+    display: flex;
+    margin-top: .2rem;
+    align-items: center;
+}
+.icon{
+    background: #ccc;
+    width: .4rem;
+    height: .4rem;
+    vertical-align: text-top;
+    margin-right: 0.2rem;
+    font-size: 0.3rem;
+    color: inherit;
+    
+}
+.main{
+    padding: 1rem .6rem 0;
+    height: 9rem;
+}
+.wrap{
+    height: 1rem;
+    font-size: .5rem;
+    font-weight: 700;
+    font-stretch: normal;
+    line-height: 1rem;
+    color: #232323;
+}
+.area {
+    padding-top: 1rem;
+}
+.list{
+    padding-bottom: 0.2rem;
+}
+.item{
+    list-style: none;
+    width: 100%;
+    border-bottom: 0.02133rem solid #666;
+    font-size: 0.4rem;
+    color: #232323;
+    line-height: 0.8rem;
+    padding-bottom: 0.1rem;
+}
+.label{
+    color: #ff6743;
+}
+.input{
+    width: 5rem;
+    height: 0.4rem;
+    font-size: 0.3rem;
+    margin-left: .1rem;
+    border: none;
+    background-color: #fdfdfd;
+}
+.tip{
+    height: 0.3rem;
+    font-size: 0.2rem;
+    line-height: 0.3rem;
+    color: #232323;
+}
+.btn{
+    padding-top: .72rem;
+}
+.lg{
+    display: block;
+    width: 100%;
+    height: .9rem;
+    line-height: .9rem;
+    font-size: 0.37rem;
+    color: #fefefe;
+    text-align: center;
+    border-radius: 1.28rem;
+    background-color: #ebebeb;
+    border: none;
+}
+.toggle{
+    margin-top: 0.3rem;
+}
+.sms{
+    font-size: .3rem;
+    color: #232323;
+    display: flex;
+    justify-content: space-between;
+}
+.footer{
+    padding-left: 2rem;
+    padding-right: 2rem;
+    position: absolute;
+    width: 100%;
+    bottom: 1.3rem;
+    border-bottom: none;
+}
+.inner{
+    /* background: #666; */
+    display: flex;
+}
+.imgitem{
+    flex: 1;
+    text-align: center;
+}
+.img{
+    display: block;
+    height: .8rem;
+}
+.iconqq{
+    background: url(https://m.juooo.com/public/basic/Home/app/app-juooo5/images/login/qq.png) no-repeat;
+    background-size: cover;
+    display: inline-block;
+    width: .82rem;
+    height: .82rem;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.iconweibo {
+    background: url(https://m.juooo.com/public/basic/Home/app/app-juooo5/images/login/weibo.png) no-repeat;
+    background-size: cover;
+    display: inline-block;
+    width: .82rem;
+    height: .82rem;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
